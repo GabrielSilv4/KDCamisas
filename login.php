@@ -12,12 +12,16 @@
             <form action="" method="post" enctype="multipart/form-data">      
                 <span>Login: </span><input type="text" name="login" class="txt"> </br>
                 <span>Senha: </span><input type="password" name="senha" class="txt">
-                <input type="submit" value="Entrar" name="botao" id="btn">
+                <input type="submit" value="Entrar" name="botao"/> </br>
+				<input type="submit" value="Novo Usuario" name="botao2"/> </br>
             </form>
             <?php 
-                require_once './projetec/CRUD.php';
+   
                 if(isset($_POST["botao"])){
                     logar($_POST["login"],$_POST["senha"]);
+                }
+				if(isset($_POST["botao2"])){
+                    <a href='C:\xampp\htdocs\KDCamisas\CadastrarUsuario.html' /a>;
                 }
             ?>
         </div>
