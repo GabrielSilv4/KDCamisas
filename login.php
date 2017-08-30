@@ -13,7 +13,8 @@
                 <span>Login: </span><input type="text" name="login" class="txt"> </br>
                 <span>Senha: </span><input type="password" name="senha" class="txt">
                 <input type="submit" value="Entrar" class="button" name="botao"/> </br>
-				<input type="submit" value="Novo Usuario"  class="button" name="botao2"/> </br>
+				<a href='..\KDCamisas\CadastrarUsuario.html'> <button type="button">NovoUsuario</button></a>  </br>
+				
             </form>
             <?php 
    
