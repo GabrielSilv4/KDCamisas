@@ -12,7 +12,9 @@ function conexao() {
 
 // Checando Conexão
     if ($conn->connect_error) {
-        header("location:../index.php");
+        echo"Ocorreu um erro na conexão com o banco de dados";
+        exit;
+        
     } else
         return $conn;
 }
